@@ -45,6 +45,7 @@ public:
         return;
     }
    ~Rx(void){
+        data.clear();
         printf("Class Destroyed.\n");
     }
     std::vector<char> data;
